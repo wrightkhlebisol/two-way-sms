@@ -1,0 +1,26 @@
+{
+  "name": "two-way-sms",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": "8.11.1",
+    "npm": "5.0.3"
+  },
+  "scripts": {
+    "start": "node ./app.js",
+    "prod": "node ./app.js",
+    "watch": "nodemon ./app.js",
+    "build": "npm run watch && npm run start"
+  },
+  "dependencies": {
+    "africastalking": "^0.3.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dotenv": "^6.0.0",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.18.4"
+  }
+}
